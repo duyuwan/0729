@@ -1,0 +1,39 @@
+#include<stdio.h>
+/*      int JIECH()
+{       int i=1;
+        int m=1;
+        int n=1;
+        printf("请输入一个数：\n");
+        scanf("%d",&i);
+        for(m=2;m<=i;m++)
+        {
+        n=n*m;
+        }
+        printf("%d的阶乘是：%d\n",i,n);
+        return 0;
+
+}*/
+
+        int sort(int m)
+{
+        if(m==0||m==1) return 1;
+        else
+        return m*sort(m-1);
+}
+
+
+int main(int argc,char*argv[])
+{       int k=1;
+        int n;
+        while(k)
+{
+        printf("请输入一个数：\n");
+        scanf("%d",&n);
+
+printf("%d\n",sort(n));
+
+//      JIECH();
+        scanf("%d",&k);
+}
+        return 0;
+}

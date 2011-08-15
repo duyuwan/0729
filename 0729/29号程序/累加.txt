@@ -1,0 +1,26 @@
+#include<stdio.h>
+int ADD()
+{
+        int i=1;
+        int t=0;
+        int s1=0;
+        int s2=0;
+        for(i=1;i<=99;i++)
+        {
+        s1=s1+i;
+        }
+        for(t=1;t<=99;)
+        {
+        s2=s2+t;
+        t=t+2;
+        }
+
+        printf("1+2+...+99=%d\n",s1);
+        printf("1+3+...+99=%d\n",s2);
+        return 0;
+}
+int main(int argc,char*argv[])
+{
+        ADD();
+        return 0;
+}                 

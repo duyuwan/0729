@@ -1,0 +1,24 @@
+#include<stdio.h>
+        double ABS()
+{
+        double a;
+        printf("请输入一个数：\n");
+        scanf("%lf",&a);
+        if(a<0)
+        {
+        printf("a的绝对值是：%lf\n",-a);
+        }
+        else
+        printf("a的绝对值是：%lf\n",a);
+        return 0;
+}
+
+int main(int argc,char*argv[])
+{       int j=1;
+        while(j)
+{
+        ABS();
+}
+
+        return 0;
+}

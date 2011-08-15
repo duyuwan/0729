@@ -1,0 +1,22 @@
+#include<stdio.h>
+        int TIME()
+{
+        int a=0;
+        int b=0;
+        int i=0;
+        a=560/60;
+        b=560%60;
+        printf("560分钟转换成小时为：%d 时%d分\n",a,b);
+
+        return 0;
+}
+
+
+
+int main(int argc, char*argv[])
+{
+
+        TIME();
+        return 0;
+
+}
